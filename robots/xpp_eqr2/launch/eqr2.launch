@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- Upload eqr2 URDF to ros parameter server for rviz to find  -->
+  <param name="eqr2_rviz_urdf_robot_description" command="$(find xacro)/xacro --inorder '$(find xpp_eqr2)/urdf/eqr2.urdf'"/>
+
+  <!-- Start tf visualizer  -->
+  <node name="urdf_visualizer_eqr2" pkg="xpp_eqr2" type="urdf_visualizer_eqr2" output="screen"/>
+
+</launch>

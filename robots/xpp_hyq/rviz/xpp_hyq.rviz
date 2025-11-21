@@ -228,6 +228,103 @@ Visualization Manager:
     - Alpha: 0.5
       Class: rviz/RobotModel
       Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fl_leg_l1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fl_leg_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fl_leg_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fr_leg_lee:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fr_leg_l1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        fr_leg_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fr_leg_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        fr_leg_lee:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hl_leg_l1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hl_leg_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hl_leg_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hl_leg_lee:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hr_leg_l1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hr_leg_l2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hr_leg_l3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hr_leg_lee:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: Eqr2
+      Robot Description: /eqr2_rviz_urdf_robot_description
+      TF Prefix: eqr2_des
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.5
+      Class: rviz/RobotModel
+      Collision Enabled: false
       Enabled: false
       Links:
         All Links Enabled: true

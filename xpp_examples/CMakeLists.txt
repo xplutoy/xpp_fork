@@ -29,6 +29,11 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+add_executable(eqr2_test src/eqr2_test.cc)
+target_link_libraries(eqr2_test
+  ${catkin_LIBRARIES}
+)
+
 add_executable(monoped_publisher src/monoped_pub.cc)
 target_link_libraries(monoped_publisher
   ${catkin_LIBRARIES}
@@ -45,7 +50,7 @@ target_link_libraries(quadrotor_bag_builder
 #############
 # Mark library for installation
 install(
-  TARGETS monoped_publisher quadrotor_bag_builder
+  TARGETS monoped_publisher quadrotor_bag_builder eqr2_test
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
